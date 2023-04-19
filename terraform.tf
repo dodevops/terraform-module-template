@@ -1,3 +1,3 @@
-# Required providers or terraform version, if any
+# Required providers or terraform version
 terraform {
 }

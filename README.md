@@ -22,7 +22,6 @@ module "aws-eks" {
 
 ## Development
 
-Use [terraform-docs](https://terraform-docs.io/) to generate the API documentation by running
+Use [the terraform module tools](https://github.com/dodevops/terraform-module-tools) to check and generate the documentation by running
 
-    terraform fmt .
-    terraform-docs .
+    docker run -v "$PWD":/terraform ghcr.io/dodevops/terraform-module-tools:latest
